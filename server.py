@@ -83,7 +83,7 @@ class EvoraServer(basic.LineReceiver):
         Called when server recieves a line. Runs the line through the parser and then
         sends the resulting data off.
         """
-        logger.debug("received " + line)
+        #logger.debug("received " + line)
         ep = EvoraParser(self)
         d = threads.deferToThread(ep.parse, line)
         d.addCallback(self.sendData)
