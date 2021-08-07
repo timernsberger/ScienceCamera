@@ -6,7 +6,7 @@ from astropy.io import fits
 
 import evora.common.logging.my_logger as my_logger
 
-logger = my_logger.myLogger("fits_utils.py", "client")
+#logger = my_logger.myLogger("fits_utils.py", "client")
 
 
 def getdata(path):
