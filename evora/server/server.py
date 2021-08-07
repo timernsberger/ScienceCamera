@@ -19,7 +19,7 @@ import time
 from datetime import datetime
 
 # MRO files
-from ..evora.common.utils import fits as fits_utils
+from evora.common.utils import fits as fits_utils
 from evora.common.logging import my_logger
 import numpy as np
 import pandas as pd
