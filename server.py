@@ -47,6 +47,7 @@ except(ImportError):
 acquired = None
 t = None
 isAborted = None  # tracks globally when the abort has been called. Every call to the parser is an new instance
+from logs import logger
 #logger = my_logger.myLogger("evora_server.py", "server")
 ftp_server = None
 # Get gregorian date, local
